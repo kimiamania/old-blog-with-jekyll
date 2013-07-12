@@ -1,0 +1,20 @@
+<section>
+  <h4>About Me</h4>
+  <p>My name is <a href="mailto:webmaster@bocil.org">Rezha Julio</a>.
+  Ever since 1994 when my parents allowed me to have a computer
+  I have been programming them. Since 2001 I&#8217;m working for
+  <a href="http://www.sensational.ch">Sensational AG</a>
+  which I co-founded. I love working with and talking about
+  computers.</p>
+</section>
+
+
+{% if site.author.twitter.user %}
+<section>
+  {% if site.author.twitter.follow_button %}
+    <a href="http://twitter.com/{{ site.author.twitter.user }}" class="twitter-follow-button" data-width="208px" data-show-count="{{ site.author.twitter.show_follower_count }}">Follow @{{ site.author.twitter.user }}</a>
+  {% else %}
+    <p>Follow <a href="http://twitter.com/{{site.pilif.twitter.user}}">@{{ site.author.twitter.user }}</a></p>
+  {% endif %}
+</section>
+{% endif %}
