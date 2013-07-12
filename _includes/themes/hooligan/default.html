@@ -108,6 +108,12 @@
     <div class="container">
       <div class="content">
         {{ content }}
+		<span class='st_facebook_hcount' displayText='Facebook'></span>
+	<span class='st_twitter_hcount' displayText='Tweet'></span>
+	<span class='st_googleplus_hcount' displayText='Google +'></span>
+	<span class='st_pinterest_hcount' displayText='Pinterest'></span>
+	<span class='st_email_hcount' displayText='Email'></span>
+	<span class='st_sharethis_hcount' displayText='ShareThis'></span>
       </div>
 
       <footer>
@@ -131,7 +137,9 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/jquery.min.js"><\/script>')</script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
-
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "1eb53617-0a52-4633-b12f-47e7b7b2b8ad", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
     {% include JB/analytics %}
   </body>
 </html>
