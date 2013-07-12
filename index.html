@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home - Rezha Julio 
+title: Home
 ---
 {% include JB/setup %}
 <div class="row">
@@ -35,7 +35,9 @@ title: Home - Rezha Julio
 
     </div>
     <aside id="sidebar" class="span3">
-    <!--{% include sidebar.html %}-->
+    {% include sidebar.html %}
+	{% assign posts_collate = site.posts %}
+	{% include JB/posts_collate %}
     </aside>
 </div>
 

@@ -112,11 +112,21 @@
 
       <footer>
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://github.com/dhulihan/hooligan" target="_blank">The Hooligan Theme</a>
         </p>
       </footer>
     </div> <!-- /container -->
+	
+	{% if site.pilif.twitter.follow_button or site.pilif.twitter.follow_button %}
+      <script type="text/javascript">
+        (function(){
+          var twitterWidgets = document.createElement('script');
+          twitterWidgets.type = 'text/javascript';
+          twitterWidgets.async = true;
+          twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+          document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+        })();
+      </script>
+    {% endif %}
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/jquery.min.js"><\/script>')</script>

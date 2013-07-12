@@ -16,7 +16,10 @@ author :
   name : Rezha Julio
   email : webmaster@bocil.org
   github : kimiamania
-  twitter : kimiamania
+  twitter:
+    user: kimiamania
+    tweet_button: true
+    follow_button: true
   facebook : rezha.julio
   #feedburner : feedname
 
