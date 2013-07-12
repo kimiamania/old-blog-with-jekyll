@@ -35,9 +35,13 @@ title: Home
 
     </div>
     <aside id="sidebar" class="span3">
+	<section>
     {% include sidebar.html %}
+	</section>
+	<section>
 	{% assign posts_collate = site.posts %}
 	{% include JB/posts_collate %}
+	</section>
     </aside>
 </div>
 
