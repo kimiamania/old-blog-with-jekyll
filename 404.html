@@ -1,1 +1,60 @@
-Sorry this page does not exist =(
+  <!DOCTYPE html >
+  <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"> <![endif]-->
+  <!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en" dir="ltr"> <![endif]-->
+  <!--[if IE 8]> <html class="no-js lt-ie9" lang="en" dir="ltr"> <![endif]-->
+  <!--[if gt IE 8]><!--><html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
+    <head>
+      <title>404 Error Page</title>
+     	<meta charset="UTF-8" />
+      <meta name="description" content="Rezha Julio 404 Page" />
+      <link rel="stylesheet" type="text/css" href="/assets/404/css/bootstrap.min.css" >
+      <link rel="stylesheet" type="text/css" href="/assets/404/css/font-awesome.css">
+      <link rel="stylesheet" type="text/css" href="/assets/404/css/styles.css">
+      <link rel="stylesheet" type="text/css" href="/assets/404/css/animate-custom.css">
+     </head>
+      <body class="Grey">
+        <div class="color-stripes">
+          <ul>
+            <li><a href="#" class="Blue"></a></li>
+            <li><a href="#" class="Magenta"></a></li>
+            <li><a href="#" class="Purple"></a></li>
+            <li><a href="#" class="Teal"></a></li>
+            <li><a href="#" class="Lime"></a></li>
+            <li><a href="#" class="Brown"></a></li>
+            <li><a href="#" class="Pink"></a></li>
+            <li><a href="#" class="Orange"></a></li>
+            <li><a href="#" class="Red"></a></li>
+            <li><a href="#" class="Green"></a></li>
+            </ul>
+        </div>
+      <div class="container">        
+        <div class="error-message">
+          <h1>404</h1>
+          <div class="message">We're not sure what happened, but we do know this page doesn't exist.</div>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="/"> <i class="icon-home"></i>Home</a></li> 
+             <li><a href="http://twitter.com/kimiamania"> <i class="icon-flag"></i>Report</a></li>
+           </ul>
+        </div>
+      </div>
+      <script type="text/javascript" src="/assets/404/js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="/assets/404/js/jquery.transit.min.js"></script>
+      <script type="text/javascript">
+        $(function(){
+          $('h1').hover(
+            function () {
+                $(this).addClass('animated tada')
+              }, 
+              function () {
+                $(this).removeClass()
+              }
+          );
+          $('.color-stripes a').click(function(){
+            $('body').removeClass().addClass($(this).attr('class'));             
+          });          
+        });    
+      </script>
+     </body>
+  </html>
