@@ -47,7 +47,7 @@
           </a>      
 
 
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }} <h4>{{ site.tagline }}</h4></a>
 
 
           <div class="nav-collapse">
@@ -135,6 +135,25 @@
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript">var switchTo5x=true;</script>
 	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	
+	<!-- include the GMTweets library, keep this hosted to our servers to ensure you stay up-to date
+	<script src="http://api.getmytweets.co.uk/min.tweet.3.js"></script> -->
+
+	<!-- the plugin
+	<script type="text/javascript">
+	$(document).ready(function(e) {
+    
+		$('.twitter_feed').getmytweets({
+			twitter_sn: 'kimiamania', /* my twitter username */
+			twitter_wrap: 'tweet', /* wrap each tweet with a class */
+			twitter_limit: 10, /* how many tweets to return */
+			twitter_pp: true, /* display your profile picture */
+			twitter_stats: true, /* display your twitter stats */
+			twitter_details: true /* display your details (name, location) */
+		});
+    
+	});
+	</script> -->
 	<script type="text/javascript">stLight.options({publisher: "1eb53617-0a52-4633-b12f-47e7b7b2b8ad", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
     {% include JB/analytics %}
   </body>
