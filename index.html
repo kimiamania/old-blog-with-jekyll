@@ -7,7 +7,9 @@ title: Home
     <div class="span9">
 {% for post in paginator.posts %}
     <div class="page-header">
-      <a href="{{ root_url }}{{ post.url }}"><h1>{{ post.title }}</h1></a>
+      <a href="{{ root_url }}{{ post.url }}"><h1>{{ post.title }}</h1>{% if post.tagline %}
+      <small>{{ post.tagline }}</small>
+    {% endif %}</a>
     </div>
 
     <div class="article">
