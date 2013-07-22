@@ -13,6 +13,6 @@ Gw sebenernya udah mulai nge-blog semenjak 2008, tapi gw ga pernah konsisten bua
 
 Well, gw sekarang lagi sibuk ngembangin bocil.org, sebuah web yang gw bngun untuk sebuah komunitas di game eRepublik. Karena HDD di server lama rusak, gw harus nulis ulang code dan database nya. Gw bakal cerita lebih banyak di post berikutnya.
 
-Gw rasa cukup segini dulu post pertama di blog ini. See you in next post!
+Gw rasa cukup segini dulu post pertama di blog ini. See you next post!
 
 [1]:http://daringfireball.net/projects/markdown/
