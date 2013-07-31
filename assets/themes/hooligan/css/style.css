@@ -126,6 +126,7 @@ hr {
 .content {
   /* when there's no page-header */
   /* Wide column content */
+  text-align: justify;
 }
 /* line 111, ../_sass/_base.scss */
 .content img {
